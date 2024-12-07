@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(54, 146, 126);
+    padding: 2rem;
+    color: black;
+    display: flex;
+    justify-content:space-between;
+}
+.b{
+    gap: 1rem;
+    list-style: none;
+    display: flex;
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+ul>li>a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+ul>li>a:heaver{
+    border-color: #fff;
+}
+main{
+    border: 0.2rem;
+    margin: 0.2rem;
+    padding: 2rem;
+    background-color: rgb(219, 253, 210);
+    place-items: center;
+}
+.proyecto{
+
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    border: #fff;
+    margin: 1rem;
+
+}   
+.alin{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+   margin: 5rem;
+    background-color:#000000;
+    border-radius: 2rem;
+    padding: 1rem;
+} 
+.alin1{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    ul.b li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .Proyectos1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proyecto {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .recursos {
+        padding: 10px 5px;
+    }
+
+    ul.b li {
+        font-size: 14px;
+    }
+
+    .Proyectos1 {
+        gap: 10px;
+    }
+
+    .proyecto {
+        width: 100%; 
+    }
+}
